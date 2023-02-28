@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+}
+
+html,body,#app {
+  height: 100%;
+  background-color: #f7f8fa;
+  font-family: 'SetoFont' !important;
+}
+
+@font-face {
+  font-family: 'SetoFont';
+  src: url('@/assets/font/SetoFont.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
